@@ -3,4 +3,3 @@ git diff --cached --name-only --diff-filter=ACM | while read -r line ; do
     filename="${filename%%.*}"
     echo "$filename"
 done
-         
