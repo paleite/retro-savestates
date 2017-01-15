@@ -1,6 +1,6 @@
-/genesis
-*.zip
-*.n64
-*.bin
-*.cue
-*.DS_Store
+*
+!*/
+!*.state*
+!*.srm
+!.gitignore
+!romnames.sh
